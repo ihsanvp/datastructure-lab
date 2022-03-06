@@ -16,10 +16,10 @@ void main()
     scanf("%d", &size);
 
     printf("STACK IMPLEMENTATION USING ARRAY\n");
+    printf("1.PUSH\n2.POP\n3.PEEK\n4.DISPLAY\n5.EXIT\n");
 
     do
     {
-        printf("1.PUSH\n2.POP\n3.PEEK\n4.DISPLAY\n5.EXIT\n");
         printf("Enter choice [1/2/3/4/5] :");
         scanf("%d", &choice);
 
