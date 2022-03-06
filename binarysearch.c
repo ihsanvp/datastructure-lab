@@ -2,7 +2,7 @@
 
 void main()
 {
-    int n, x;
+    int n, x, mid, low, high, pos = -1;
 
     printf("Enter Array length :");
     scanf("%d", &n);
@@ -18,7 +18,8 @@ void main()
     printf("Enter number to search :");
     scanf("%d", &x);
 
-    int mid, pos = -1, low = 0, high = n;
+    low = 0;
+    high = n;
 
     while (low <= high)
     {
