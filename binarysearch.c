@@ -1,8 +1,5 @@
 #include <stdio.h>
 
-int binarysearch(int[], int, int, int);
-int mid;
-
 void main()
 {
     int n, x;
@@ -50,31 +47,5 @@ void main()
     else
     {
         printf("Number '%d' found at position '%d'\n", x, pos);
-    }
-}
-
-int binarysearch(int arr[], int low, int high, int x)
-{
-    if (high > low)
-    {
-        mid = (low + high) / 2;
-
-        if (x == arr[mid])
-        {
-            return mid;
-        }
-
-        if (x > mid)
-        {
-            return binarysearch(arr, mid + 1, high, x);
-        }
-        else
-        {
-            return binarysearch(arr, low, mid - 1, x);
-        }
-    }
-    else
-    {
-        return -1;
     }
 }
