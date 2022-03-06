@@ -11,4 +11,4 @@
 
 ### Datastructures using Array
 
-- [Stack](https://github.com/ihsanvp/datastructure-lab/blob/main/stackwitharray.c)
+- [Stack With Array](https://github.com/ihsanvp/datastructure-lab/blob/main/stackwitharray.c)
