@@ -3,3 +3,5 @@
 !.gitignore
 !*.c
 !README.md
+
+test.c

@@ -15,3 +15,4 @@
 ### Datastructures using Array
 
 - [Stack With Array](https://github.com/ihsanvp/datastructure-lab/blob/main/stackwitharray.c)
+- [Queue With Array](https://github.com/ihsanvp/datastructure-lab/blob/main/queuewitharray.c)
