@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int stack[100];
-int top = -1;
-int size;
+int size, top = -1;
 
 void push();
 void pop();
