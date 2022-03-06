@@ -8,6 +8,7 @@
 ### Sorting
 
 - [Bubble Sort](https://github.com/ihsanvp/datastructure-lab/blob/main/bubblesort.c)
+- [Selection Sort](https://github.com/ihsanvp/datastructure-lab/blob/main/selectionsort.c)
 
 ### Datastructures using Array
 
