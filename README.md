@@ -17,3 +17,7 @@
 - [Stack With Array](https://github.com/ihsanvp/datastructure-lab/blob/main/stackwitharray.c)
 - [Queue With Array](https://github.com/ihsanvp/datastructure-lab/blob/main/queuewitharray.c)
 - [Priority Queue With Array](https://github.com/ihsanvp/datastructure-lab/blob/main/priorityqueuewitharray.c)
+
+### Linked List
+
+- [Linked List Operations](https://github.com/ihsanvp/datastructure-lab/blob/main/linkedlist.c)
