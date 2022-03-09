@@ -21,3 +21,9 @@
 ### Linked List
 
 - [Linked List Operations](https://github.com/ihsanvp/datastructure-lab/blob/main/linkedlist.c)
+- [Stack With Linked List](https://github.com/ihsanvp/datastructure-lab/blob/main/stackwithlinkedlist.c)
+
+### Tree
+
+- [Binary Search Tree](https://github.com/ihsanvp/datastructure-lab/blob/main/binarysearchtree.c)
+
