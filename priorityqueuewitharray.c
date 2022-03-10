@@ -76,7 +76,6 @@ void insert_by_priority()
                     {
                         queue[j] = queue[j - 1];
                     }
-                    queue[i] = item;
                     break;
                 }
             }
