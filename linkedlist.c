@@ -116,18 +116,19 @@ void insert_end()
 
     if (new != NULL)
     {
-        if (head == NULL)
+        ptr = head;
+        parent = NULL;
+        while (ptr != NULL)
+        {
+            parent = ptr;
+            ptr = ptr->link;
+        }
+        if (parent == NULL) // Case 1 - head is null
         {
             head = new;
         }
-        else
+        else // Case 2 - head not null
         {
-            ptr = head;
-            while (ptr != NULL)
-            {
-                parent = ptr;
-                ptr = ptr->link;
-            }
             parent->link = new;
         }
     }
