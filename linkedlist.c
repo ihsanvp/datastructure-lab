@@ -23,14 +23,14 @@ void display();
 
 node *createNode(int data)
 {
-    node *new = (node *)malloc(sizeof(node));
-    if (new != NULL)
+    node *newnode = (node *)malloc(sizeof(node));
+    if (newnode != NULL)
     {
-        new->data = data;
-        new->link = NULL;
+        newnode->data = data;
+        newnode->link = NULL;
     }
 
-    return new;
+    return newnode;
 }
 
 void main()
