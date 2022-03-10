@@ -96,15 +96,8 @@ void insert_front()
 
     if (new != NULL)
     {
-        if (head == NULL)
-        {
-            head = new;
-        }
-        else
-        {
-            new->link = head;
-            head = new;
-        }
+        new->link = head;
+        head = new;
     }
     else
     {
