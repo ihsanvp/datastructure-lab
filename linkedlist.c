@@ -209,27 +209,29 @@ void delete_end()
 {
     if (head != NULL)
     {
-        if (head->link == NULL)
+        ptr = head;
+        parent = NULL;
+        while (ptr != NULL)
         {
-            free(head);
+            if (ptr->link == NULL)
+            {
+                break;
+            }
+            parent = ptr;
+            ptr = ptr->link;
+        }
+        if (parent == NULL) // CASE 1 - only head node is present
+        {
+            temp = head;
             head = NULL;
         }
         else
         {
-            ptr = head;
-            while (ptr != NULL)
-            {
-                parent = ptr;
-                ptr = ptr->link;
-                if (ptr->link == NULL)
-                {
-                    break;
-                }
-            }
             temp = parent->link;
             parent->link = NULL;
-            free(temp);
         }
+
+        free(temp);
     }
     else
     {
@@ -266,18 +268,20 @@ void delete_pos()
         if (ptr == head) // CASE 1 - first position
         {
             head = ptr->link;
-            free(ptr);
+            temp = ptr;
         }
         else if (ptr->link == NULL) // CASE 2 - last position
         {
             parent->link = NULL;
-            free(ptr);
+            temp = ptr;
         }
         else // CASE 3 - middle position
         {
             parent->link = ptr->link;
-            free(ptr);
+            temp = ptr;
         }
+
+        free(temp);
     }
 }
 
